@@ -67,8 +67,6 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ cpu_perc, "CPU: %s%% | ", 	NULL },
 	{ ram_perc, "RAM: %s%% | ",	NULL },
-	{ ipv4, "%s | ",           (enp2s0) },
-	{ netspeed_rx, "%s | ",           "enp2s0" },
-	{ netspeed_tx, "%s | ",           "enp2s0" },
+	{ ipv4, "%s | ",           "enp2s0" },
 	{ datetime, "%s",           "%a-%b %d | %R " },
 };
