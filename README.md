@@ -1,0 +1,2 @@
+# slstatus
+dwm complex status 
